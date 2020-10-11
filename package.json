@@ -1,0 +1,27 @@
+{
+  "name": "cooltutorial",
+  "version": "1.0.0",
+  "description": "This is cool tutorial",
+  "main": "app.js",
+  "scripts": {
+    "watch": "tsc-watch --onSuccess \"node ./build/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://GodevmodTutorials@bitbucket.org/GodevmodTutorials/cooltutorial.git"
+  },
+  "author": "Ilya Nikulin",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/GodevmodTutorials/cooltutorial#readme",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "@types/node": "^14.6.4",
+    "@types/socket.io": "^2.1.11",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0",
+    "ts-node": "^9.0.0",
+    "tsc-watch": "^4.2.9",
+    "typescript": "^4.0.2"
+  }
+}
